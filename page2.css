@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+	
+.hero-unit {
+	background-color: #000;
+	color:#096;
+}
+
+.row-fluid{
+	float: none;
+	text-align:center;
+}
+
+
+div {
+	height:auto;
+	width:auto;
+	color: #096;
+	padding: 1em;
+	alignment-adjust:auto;
+	border:none;	
+}
+
+
+footer {
+	clear: both;
+	border:medium #000;
+	padding: 2em;
+}
+
+footer nav
+{
+	}
+
+
+address
+{ border:medium #000;
+	clear:both;
+	}
+/* Media queries */
+
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+	body {
+		background-image:url(dollar-sign.jpeg)
+		
+ }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+	body {
+		background-image:url(dollar-sign.jpeg)
+ }
+
+ }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	body {
+		background-image:url(dollar-sign.jpeg)
+ }
+
+ }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+	body {
+		background-image:url(dollar-sign.jpeg)
+ }
+
+ }
+
